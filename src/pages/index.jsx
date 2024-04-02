@@ -3,7 +3,7 @@ import Table from "@/components/table";
 import Navbar from "@/components/navbar";
 import SideBar from "@/components/sideBar";
 import StorageCard from "@/components/card/StoreageCard";
-import { cardData, tableData } from "../data/data.json"
+import { cardData, tableData } from "../data/data.js"
 import UpgradeCard from "@/components/card/upgradeCard";
 import RangeInput from "@/components/rangeInput";
 
@@ -46,7 +46,7 @@ const Home = () => {
             <h4 className="text-[10px] text-[#BDBDBD] my-2">STORAGE DETAILS</h4>
             <div className="mt-4 w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5">
               {cardData?.map((v, index) => {
-                return <StorageCard data={v} index={index} />
+                return <StorageCard key={index} data={v} index={index} />
               })}
             </div>
           </div>

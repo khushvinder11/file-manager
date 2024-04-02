@@ -1,5 +1,5 @@
-{
-  "cardData": [
+
+ export const cardData = [
     {
       "name": "Shared File",
       "files": "1203 files",
@@ -24,8 +24,8 @@
       "memory": "24 GB",
       "bg": "#E7F5E9"
     }
-  ],
-  "tableData": [
+  ]
+  export const tableData = [
     {
       "name": "kjshdihi",
       "members": "Only You"
@@ -62,8 +62,8 @@
       "members": "Only You",
       "lastModified": "9 April 2024"
     }
-  ],
-  "mainMenu": [
+  ]
+export const mainMenu = [
     {
       "name": "All Files",
       "icon": "allfiles"
@@ -85,4 +85,3 @@
       "icon": "trash"
     }
   ]
-}

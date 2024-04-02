@@ -1,7 +1,7 @@
 import React from "react";
 import { IconBasket, IconSettings, IconFiles, IconClock, IconFileTypeDoc, IconPhoto, IconTrack } from '@tabler/icons-react';
 import Link from "next/link";
-import { mainMenu } from "../../data/data.json"
+import { mainMenu } from "../../data/data.js"
 import { IconPlus, IconChevronDown } from '@tabler/icons-react';
 
 const SideBar = ({ isMenu }) => {
